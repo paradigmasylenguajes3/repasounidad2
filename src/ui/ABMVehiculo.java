@@ -194,8 +194,8 @@ public class ABMVehiculo extends javax.swing.JFrame {
         ar.edu.unlar.Repaso.vehiculos.add(v);
         
         GrillaVehiculo gv = new GrillaVehiculo(ar.edu.unlar.Repaso.vehiculos);
-        System.out.println(ar.edu.unlar.Repaso.vehiculos.size());
         jtListadoVehiculos.setModel(gv);
+        
         
     }//GEN-LAST:event_jbAceptarActionPerformed
 

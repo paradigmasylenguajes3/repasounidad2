@@ -160,11 +160,11 @@ this.dispose();       //CODIGO PARA CANCELAR
             if(jrbCilindros3.isSelected()){
                 motor1.setCilindros(3);
             }
-             if(jrbCilindros3.isSelected()){
+             if(jrbCilindros4.isSelected()){
                 motor1.setCilindros(4);
             }
              
-              if(jrbCilindros3.isSelected()){
+              if(jrbCilindros6.isSelected()){
                 motor1.setCilindros(6);
             }
               motor1.setPotencia(Float.valueOf(jtfPotencia.getText()));

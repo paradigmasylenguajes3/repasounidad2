@@ -25,6 +25,7 @@ public static ArrayList motores = new ArrayList();
     public static void main(String[] args) {
         //LLAMADA A OTRA CLASE 
         ui.Principal principal = new ui.Principal();
+        //poner visible
         principal.setVisible(true);
      
     }

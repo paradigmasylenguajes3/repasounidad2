@@ -60,7 +60,8 @@ public String getColumnName(int column) {
     }
 
 public void setDatos(ArrayList<Vehiculo> datos){
-
-    this.vehiculos=datos;
+    
+   vehiculos=datos;
+    
 }
 }
